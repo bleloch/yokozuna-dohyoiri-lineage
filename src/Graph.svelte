@@ -1,8 +1,8 @@
 <script lang="ts">
     import * as d3 from "d3";
     import data from "/src/assets/data.json";
-    import {StringBuilder} from "./util/StringBuilder.ts";
-    import {onMount} from "svelte";
+    import { StringBuilder } from "./util/StringBuilder.ts";
+    import { onMount } from "svelte";
 
     onMount(async () => {
         // Render graph
@@ -106,6 +106,6 @@
     });
 </script>
 
-<div id="container" class="p-4 grid place-items-center">
+<div class="p-4 grid place-items-center" id="container">
     <svg id="graph"></svg>
 </div>

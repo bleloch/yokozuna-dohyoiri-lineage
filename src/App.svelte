@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex flex-col h-screen justify-between">
-<Header/>
-<Main/>
-<Footer/>
+    <Header/>
+    <Main/>
+    <Footer/>
 </div>
