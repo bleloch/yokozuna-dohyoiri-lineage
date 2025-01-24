@@ -1,0 +1,895 @@
+{
+  "name": "Sakaigawa Namiemon",
+  "nameJp": "境川浪右衛門",
+  "generation": 14,
+  "style": "",
+  "stable": "Sakaigawa",
+  "ichimon": "Dewanoumi",
+  "relationship": "",
+  "promoted": 1877,
+  "myoseki": "Sakaigawa",
+  "notes": "",
+  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3422",
+  "image": "sakaigawa",
+  "children": [
+    {
+      "name": "Umegatani Tōtarō I",
+      "nameJp": "梅ヶ谷藤太郎 (初代)",
+      "generation": 15,
+      "style": "",
+      "stable": "Minato (Ōsaka) > Tamagaki",
+      "ichimon": "Dewanoumi",
+      "relationship": "",
+      "promoted": 1884,
+      "myoseki": "Ikazuchi",
+      "notes": "",
+      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3446",
+      "image": "umegatani1",
+      "children": [
+        {
+          "name": "Nishinoumi Kajirō I",
+          "nameJp": "西ノ海嘉治郎 (初代)",
+          "generation": 16,
+          "style": "",
+          "stable": "Kujiranami  (Kyōto) > Takasago",
+          "ichimon": "Takasago > Tokitsukaze",
+          "relationship": "",
+          "promoted": 1890,
+          "myoseki": "Izutsu",
+          "notes": "",
+          "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3464",
+          "image": "nishinoumi1",
+          "children": [
+            {
+              "name": "Konishiki Yasokichi I",
+              "nameJp": "小錦八十吉 (初代)",
+              "generation": 17,
+              "style": "",
+              "stable": "Takasago",
+              "ichimon": "Takasago",
+              "relationship": "",
+              "promoted": 1896,
+              "myoseki": "Hatachiyama",
+              "notes": "",
+              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3494",
+              "image": "konishiki",
+              "children": [
+                {
+                  "name": "Ōzutsu Man'emon",
+                  "nameJp": "大砲万右エ門",
+                  "generation": 18,
+                  "style": "",
+                  "stable": "Oguruma",
+                  "ichimon": "Nishonoseki",
+                  "relationship": "",
+                  "promoted": 1901,
+                  "myoseki": "Matsuchiyama",
+                  "notes": "",
+                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3516",
+                  "image": "ozutsu",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Nishinoumi Kajirō II",
+              "nameJp": "西ノ海嘉治郎 (2代)",
+              "generation": 25,
+              "style": "Unryū",
+              "stable": "Izutsu",
+              "ichimon": "Tokitsukaze",
+              "relationship": "Deshi",
+              "promoted": 1916,
+              "myoseki": "Izutsu",
+              "notes": "",
+              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3579",
+              "image": "nishinoumi2",
+              "children": [
+                {
+                  "name": "Nishinoumi Kajirō III",
+                  "nameJp": "西ノ海嘉治郎 (3代)",
+                  "generation": 30,
+                  "style": "Unryū",
+                  "stable": "Izutsu",
+                  "ichimon": "Tokitsukaze",
+                  "relationship": "Deshi",
+                  "promoted": 1922,
+                  "myoseki": "Asakayama",
+                  "notes": "",
+                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3652",
+                  "image": "nishinoumi3",
+                  "children": [
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hitachiyama Taniemon",
+          "nameJp": "常陸山谷右エ門",
+          "generation": 19,
+          "style": "",
+          "stable": "Dewanoumi",
+          "ichimon": "Dewanoumi",
+          "relationship": "",
+          "promoted": 1903,
+          "myoseki": "Dewanoumi",
+          "notes": "",
+          "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3551",
+          "image": "hitachiyama",
+          "children": [
+            {
+              "name": "Tachiyama Mine'emon",
+              "nameJp": "太刀山峰右エ門",
+              "generation": 22,
+              "style": "Shiranui",
+              "stable": "Tomozuna",
+              "ichimon": "Isegahama",
+              "relationship": "",
+              "promoted": 1911,
+              "myoseki": "Azumazeki",
+              "notes": "Wikipedia reports that he was often coached by Hitachiyama",
+              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3565",
+              "image": "tachiyama",
+              "children": [
+                {
+                  "name": "Ōtori Tanigorō",
+                  "nameJp": "鳳谷五郎",
+                  "generation": 24,
+                  "style": "",
+                  "stable": "Miyagino > Katsunoura > Miyagino",
+                  "ichimon": "Isegahama",
+                  "relationship": "Otōto-deshi",
+                  "promoted": 1915,
+                  "myoseki": "",
+                  "notes": "Tachiyama was the only yokozuna in the ichimon at this time",
+                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3594",
+                  "image": "otori",
+                  "children": [
+                    {
+                      "name": "Futabayama Sadaji",
+                      "nameJp": "双葉山定次",
+                      "generation": 35,
+                      "style": "Unryū",
+                      "stable": "Tatsunami > Futabayama Dōjō",
+                      "ichimon": "Isegahama > Tokitsukaze",
+                      "relationship": "",
+                      "promoted": 1937,
+                      "myoseki": "Tokitsukaze",
+                      "notes": "Ōtori was the only option available for the ichimon at this time",
+                      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3763",
+                      "image": "futabayama",
+                      "children": [
+                        {
+                          "name": "Maedayama Eigorō",
+                          "nameJp": "前田山英五郎",
+                          "generation": 39,
+                          "style": "Unryū",
+                          "stable": "Takasago",
+                          "ichimon": "Takasago",
+                          "relationship": "",
+                          "promoted": 1947,
+                          "notes": "Takasago did not have a yokozuna at this time, and Maedayama was close to Futabayama",
+                          "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3801",
+                          "image": "maedayama",
+                          "children": [
+                            {
+                              "name": "Azumafuji Kin'ichi",
+                              "nameJp": "東富士欽壹",
+                              "generation": 40,
+                              "style": "Unryū",
+                              "stable": "Fujigane > Takasago",
+                              "ichimon": "Takasago",
+                              "relationship": "Deshi",
+                              "promoted": 1948,
+                              "myoseki": "Nishikido",
+                              "notes": "",
+                              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3850",
+                              "image": "azumafuji",
+                              "children": [
+                              ]
+                            },
+                            {
+                              "name": "Asashio Tarō III",
+                              "nameJp": "朝潮太郎 (3代)",
+                              "generation": 46,
+                              "style": "Unryū",
+                              "stable": "Takasago",
+                              "ichimon": "Takasago",
+                              "relationship": "Deshi",
+                              "promoted": 1959,
+                              "myoseki": "Takasago",
+                              "notes": "",
+                              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3918",
+                              "image": "asashio",
+                              "children": [
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Kagamisato Kiyoji",
+                          "nameJp": "鏡里喜代治",
+                          "generation": 42,
+                          "style": "Unryū",
+                          "stable": "Kumegawa > Futabayama Dōjō > Tokitsukaze",
+                          "ichimon": "Tokitsukaze",
+                          "relationship": "Deshi",
+                          "promoted": 1953,
+                          "myoseki": "Kagamisato > Kumegawa > Tatsutagawa > Tokitsukaze > Tatsutagawa > Hatachiyama",
+                          "notes": "",
+                          "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3875",
+                          "image": "kagamisato",
+                          "children": [
+                            {
+                              "name": "Kashiwado Tsuyoshi",
+                              "nameJp": "柏戸剛",
+                              "generation": 47,
+                              "style": "Unryū",
+                              "stable": "Isenoumi",
+                              "ichimon": "Tokitsukaze",
+                              "relationship": "",
+                              "promoted": 1961,
+                              "myoseki": "Kagamiyama",
+                              "notes": "",
+                              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3975",
+                              "image": "kashiwado",
+                              "children": [
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wakanohana Kanji I",
+                          "nameJp": "若乃花幹士 (初代)",
+                          "generation": 45,
+                          "style": "Unryū",
+                          "stable": "Nishonoseki > Shibatayama > Hanakago",
+                          "ichimon": "Nishonoseki",
+                          "relationship": "",
+                          "promoted": 1958,
+                          "myoseki": "Futagoyama > Fujishima",
+                          "notes": "Nishonoseki did not have a living yokozuna at this time. Futabayama gave Wakanohana his keshō-mawashi since the ichimon didn't have any",
+                          "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3904",
+                          "image": "wakanohana1",
+                          "children": [
+                            {
+                              "name": "Taihō Kōki",
+                              "nameJp": "大鵬幸喜",
+                              "generation": 48,
+                              "style": "Unryū",
+                              "stable": "Nishonoseki",
+                              "ichimon": "Nishonoseki",
+                              "relationship": "",
+                              "promoted": 1961,
+                              "myoseki": "Taihō",
+                              "notes": "Wakanohana I was the only yokozuna in the ichimon at this time",
+                              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3987",
+                              "image": "taiho",
+                              "children": [
+                                {
+                                  "name": "Tamanoumi Masahiro",
+                                  "nameJp": "玉の海正洋",
+                                  "generation": 51,
+                                  "style": "Shiranui",
+                                  "stable": "Nishonoseki > Kataonami",
+                                  "ichimon": "Nishonoseki",
+                                  "relationship": "",
+                                  "promoted": 1970,
+                                  "myoseki": "",
+                                  "notes": "",
+                                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=4028",
+                                  "image": "tamanoumi",
+                                  "children": [
+                                  ]
+                                },
+                                {
+                                  "name": "Kotozakura Masakatsu",
+                                  "nameJp": "琴櫻傑將",
+                                  "generation": 53,
+                                  "style": "Shiranui",
+                                  "stable": "Sadogatake",
+                                  "ichimon": "Nishonoseki",
+                                  "relationship": "",
+                                  "promoted": 1973,
+                                  "myoseki": "Shirahama > Sadogatake",
+                                  "notes": "",
+                                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=4015",
+                                  "image": "kotozakura",
+                                  "children": [
+                                    {
+                                      "name": "Takanosato Toshihide",
+                                      "nameJp": "隆の里俊英",
+                                      "generation": 59,
+                                      "style": "Shiranui",
+                                      "stable": "Futagoyama",
+                                      "ichimon": "Nishonoseki",
+                                      "relationship": "",
+                                      "promoted": 1983,
+                                      "myoseki": "Naruto",
+                                      "notes": "",
+                                      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=4104",
+                                      "image": "takanosato",
+                                      "children": [
+                                        {
+                                          "name": "Futahaguro Kōji",
+                                          "nameJp": "双羽黒晃司",
+                                          "generation": 60,
+                                          "style": "Shiranui",
+                                          "stable": "Tatsunami",
+                                          "ichimon": "Isegahama",
+                                          "relationship": "",
+                                          "promoted": 1986,
+                                          "myoseki": "",
+                                          "notes": "Conjecture - Isegahama had no yokozuna alive, they shared the same Shiranui style, and Futahaguro was much promoted to cover for Takanosato's retirement",
+                                          "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=4136",
+                                          "image": "futahaguro",
+                                          "children": [
+                                          ]
+                                        },
+                                        {
+                                          "name": "Asahifuji Seiya",
+                                          "nameJp": "旭富士正也",
+                                          "generation": 63,
+                                          "style": "Shiranui",
+                                          "stable": "Ōshima",
+                                          "ichimon": "Isegahama",
+                                          "relationship": "",
+                                          "promoted": 1990,
+                                          "myoseki": "Asahifuji > Ajigawa > Isegahama",
+                                          "notes": "",
+                                          "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=1342",
+                                          "image": "asahifuji",
+                                          "children": [
+                                            {
+                                              "name": "Hakuhō Shō",
+                                              "nameJp": "白鵬翔",
+                                              "generation": 69,
+                                              "style": "Shiranui",
+                                              "stable": "Magaki",
+                                              "ichimon": "Isegahama",
+                                              "relationship": "",
+                                              "promoted": 2007,
+                                              "myoseki": "Magaki > Miyagino",
+                                              "notes": "",
+                                              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=1123",
+                                              "image": "hakuho",
+                                              "children": [
+                                              ]
+                                            },
+                                            {
+                                              "name": "Harumafuji Kōhei",
+                                              "nameJp": "日馬富士公平",
+                                              "generation": 70,
+                                              "style": "Shiranui",
+                                              "stable": "Ajigawa > Isegahama",
+                                              "ichimon": "Isegahama",
+                                              "relationship": "",
+                                              "promoted": 2012,
+                                              "myoseki": "",
+                                              "notes": "",
+                                              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=1111",
+                                              "image": "harumafuji",
+                                              "children": [
+                                              ]
+                                            },
+                                            {
+                                              "name": "Terunofuji Haruo",
+                                              "nameJp": "照ノ富士春雄",
+                                              "generation": 73,
+                                              "style": "Shiranui",
+                                              "stable": "Magaki > Isegahama",
+                                              "ichimon": "Isegahama",
+                                              "relationship": "",
+                                              "promoted": 2021,
+                                              "myoseki": "Terunofuji",
+                                              "notes": "",
+                                              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=11927",
+                                              "image": "terunofuji",
+                                              "children": [
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "Wakanohana Masaru",
+                                          "nameJp": "若乃花勝",
+                                          "generation": 66,
+                                          "style": "Shiranui",
+                                          "stable": "Fujishima > Futagoyama",
+                                          "ichimon": "Nishonoseki",
+                                          "relationship": "",
+                                          "promoted": 1998,
+                                          "myoseki": "Fujishima",
+                                          "notes": "",
+                                          "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3",
+                                          "image": "wakanohana3",
+                                          "children": [
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Wajima Hiroshi",
+                                  "nameJp": "輪島大士",
+                                  "generation": 54,
+                                  "style": "Unryū",
+                                  "stable": "Hanakago",
+                                  "ichimon": "Nishonoseki",
+                                  "relationship": "",
+                                  "promoted": 1973,
+                                  "myoseki": "Hanakago",
+                                  "notes": "",
+                                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=4074",
+                                  "image": "wajima",
+                                  "children": [
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Wakanohana Kanji II",
+                              "nameJp": "若乃花幹士 (2代)",
+                              "generation": 56,
+                              "style": "Unryū",
+                              "stable": "Futagoyama",
+                              "ichimon": "Nishonoseki",
+                              "relationship": "",
+                              "promoted": 1978,
+                              "myoseki": "Wakanohana > Magaki",
+                              "notes": "",
+                              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=4095",
+                              "image": "wakanohana2",
+                              "children": [
+                              ]
+                            },
+                            {
+                              "name": "Ōnokuni Yasushi",
+                              "nameJp": "大乃国康",
+                              "generation": 62,
+                              "style": "Unryū",
+                              "stable": "Hanakago > Hanaregoma",
+                              "ichimon": "Nishonoseki",
+                              "relationship": "",
+                              "promoted": 1987,
+                              "myoseki": "Ōnokuni > Shibatayama",
+                              "notes": "",
+                              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=1350",
+                              "image": "onokuni",
+                              "children": [
+                                {
+                                  "name": "Takanohana Kōji",
+                                  "nameJp": "貴乃花光司",
+                                  "generation": 65,
+                                  "style": "Unryū",
+                                  "stable": "Fujishima > Futagoyama",
+                                  "ichimon": "Nishonoseki",
+                                  "relationship": "",
+                                  "promoted": 1995,
+                                  "myoseki": "Takanohana",
+                                  "notes": "Likely - With Wakanohana I retired, Ōnokuni was the only option besides Wakanohana II, who had possibly a bad relationship with the Hanada family back then",
+                                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=2",
+                                  "image": "takanohana",
+                                  "children": [
+                                    {
+                                      "name": "Kakuryū Rikisaburō",
+                                      "nameJp": "鶴竜力三郎",
+                                      "generation": 71,
+                                      "style": "Unryū",
+                                      "stable": "Izutsu > Michinoku",
+                                      "ichimon": "Tokitsukaze",
+                                      "relationship": "",
+                                      "promoted": 2014,
+                                      "myoseki": "Kakuryū > Otowayama",
+                                      "notes": "",
+                                      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=1219",
+                                      "image": "kakuryu",
+                                      "children": [
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Kisenosato Yutaka",
+                                  "nameJp": "稀勢の里寛",
+                                  "generation": 72,
+                                  "style": "Unryū",
+                                  "stable": "Naruto > Tagonoura",
+                                  "ichimon": "Nishonoseki",
+                                  "relationship": "",
+                                  "promoted": 2017,
+                                  "myoseki": "Araiso > Nishonoseki",
+                                  "notes": "",
+                                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=1235",
+                                  "image": "kisenosato",
+                                  "children": [
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Haguroyama Masaji",
+                      "nameJp": "羽黒山政司",
+                      "generation": 36,
+                      "style": "Shiranui",
+                      "stable": "Tatsunami",
+                      "ichimon": "Isegahama",
+                      "relationship": "",
+                      "promoted": 1942,
+                      "myoseki": "Haguroyama > Tatsunami",
+                      "notes": "Likely - especially since Ōtori was possibly taught by Tachiyama, who also practiced Shiranui",
+                      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3806",
+                      "image": "haguroyama",
+                      "children": [
+                        {
+                          "name": "Yoshibayama Jun'nosuke",
+                          "nameJp": "吉葉山潤之輔",
+                          "generation": 43,
+                          "style": "Shiranui",
+                          "stable": "Takashima",
+                          "ichimon": "Isegahama",
+                          "relationship": "",
+                          "promoted": 1954,
+                          "myoseki": "Miyagino",
+                          "notes": "Likely - only other Shiranui practitioner in the ichimon",
+                          "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3879",
+                          "image": "yoshibayama",
+                          "children": [
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Terukuni Manzō",
+                      "nameJp": "照國萬藏",
+                      "generation": 38,
+                      "style": "Unryū",
+                      "stable": "Isegahama",
+                      "ichimon": "Isegahama",
+                      "relationship": "",
+                      "promoted": 1943,
+                      "myoseki": "Araiso > Isegahama",
+                      "notes": "Likely - unless Futabayama taught him instead",
+                      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3819",
+                      "image": "terukuni",
+                      "children": [
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ōnishiki Uichirō",
+              "nameJp": "大錦卯一郎",
+              "generation": 26,
+              "style": "Unryū",
+              "stable": "Dewanoumi",
+              "ichimon": "Dewanoumi",
+              "relationship": "Deshi",
+              "promoted": 1917,
+              "myoseki": "",
+              "notes": "",
+              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3645",
+              "image": "onishiki",
+              "children": [
+              ]
+            },
+            {
+              "name": "Tochigiyama Moriya",
+              "nameJp": "栃木山守也",
+              "generation": 27,
+              "style": "Unryū",
+              "stable": "Dewanoumi",
+              "ichimon": "Dewanoumi",
+              "relationship": "Deshi",
+              "promoted": 1918,
+              "myoseki": "Kasugano",
+              "notes": "",
+              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3646",
+              "image": "tochigiyama",
+              "children": [
+                {
+                  "name": "Tamanishiki San'emon",
+                  "nameJp": "玉錦三右エ門",
+                  "generation": 32,
+                  "style": "Unryū",
+                  "stable": "Nishonoseki",
+                  "ichimon": "Nishonoseki",
+                  "relationship": "",
+                  "promoted": 1932,
+                  "myoseki": "Nishonoseki",
+                  "notes": "Conjecture - Wikipedia reports that he was often coached by Tochigiyama",
+                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3718",
+                  "image": "tamanishiki",
+                  "children": [
+                    {
+                      "name": "Minanogawa Tōzō",
+                      "nameJp": "男女ノ川登三",
+                      "generation": 34,
+                      "style": "Unryū",
+                      "stable": "Takasago > Sadogatake > Takasago > Sadogatake",
+                      "ichimon": "Nishonoseki",
+                      "relationship": "Otōto-deshi",
+                      "promoted": 1936,
+                      "myoseki": "Minanogawa",
+                      "notes": "Conjecture - Tamanishiki was the only yokozuna in the ichimon back then",
+                      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3732",
+                      "image": "minanogawa",
+                      "children": [
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Tochinishiki Kiyotaka",
+                  "nameJp": "栃錦清隆",
+                  "generation": 44,
+                  "style": "Unryū",
+                  "stable": "Kasugano",
+                  "ichimon": "Dewanoumi",
+                  "relationship": "Deshi",
+                  "promoted": 1955,
+                  "myoseki": "Kasugano",
+                  "notes": "",
+                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3877",
+                  "image": "tochinishiki",
+                  "children": [
+                    {
+                      "name": "Tochinoumi Teruyoshi",
+                      "nameJp": "栃ノ海晃嘉",
+                      "generation": 49,
+                      "style": "Unryū",
+                      "stable": "Kasugano",
+                      "ichimon": "Dewanoumi",
+                      "relationship": "Deshi",
+                      "promoted": 1964,
+                      "myoseki": "Tochinoumi > Nakadachi > Kasugano > Takenawa",
+                      "notes": "",
+                      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3989",
+                      "image": "tochinoumi",
+                      "children": [
+                      ]
+                    },
+                    {
+                      "name": "Sadanoyama Shinmatsu",
+                      "nameJp": "佐田の山晋松",
+                      "generation": 50,
+                      "style": "Unryū",
+                      "stable": "Dewanoumi",
+                      "ichimon": "Dewanoumi",
+                      "relationship": "",
+                      "promoted": 1965,
+                      "myoseki": "Dewanoumi > Sakaigawa > Nakadachi",
+                      "notes": "Likely - Tochinishiki was the only yokozuna left in the ichimon back then",
+                      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3994",
+                      "image": "sadanoyama",
+                      "children": [
+                        {
+                          "name": "Mienoumi Tsuyoshi",
+                          "nameJp": "三重ノ海剛司",
+                          "generation": 57,
+                          "style": "Unryū",
+                          "stable": "Dewanoumi",
+                          "ichimon": "Dewanoumi",
+                          "relationship": "",
+                          "promoted": 1979,
+                          "myoseki": "Yamashina > Musashigawa",
+                          "notes": "",
+                          "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=4065",
+                          "image": "mienoumi",
+                          "children": [
+                            {
+                              "name": "Musashimaru Kōyō",
+                              "nameJp": "武蔵丸光洋",
+                              "generation": 67,
+                              "style": "Unryū",
+                              "stable": "Musashigawa",
+                              "ichimon": "Dewanoumi",
+                              "relationship": "Deshi",
+                              "promoted": 1999,
+                              "myoseki": "Musashimaru > Furiwake > Ōshima > Musashigawa",
+                              "notes": "",
+                              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=4",
+                              "image": "musashimaru",
+                              "children": [
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Kitanoumi Toshimitsu",
+                      "nameJp": "北の湖敏満",
+                      "generation": 55,
+                      "style": "Unryū",
+                      "stable": "Mihogaseki",
+                      "ichimon": "Dewanoumi",
+                      "relationship": "",
+                      "promoted": 1974,
+                      "myoseki": "Kitanoumi",
+                      "notes": "",
+                      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=4080",
+                      "image": "kitanoumi",
+                      "children": [
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Umegatani Tōtarō II",
+          "nameJp": "梅ヶ谷藤太郎 (2代)",
+          "generation": 20,
+          "style": "Unryū",
+          "stable": "Ikazuchi",
+          "ichimon": "Dewanoumi",
+          "relationship": "Deshi",
+          "promoted": 1903,
+          "myoseki": "Ikazuchi",
+          "notes": "",
+          "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3547",
+          "image": "umegatani2",
+          "children": [
+            {
+              "name": "Tsunenohana Kan'ichi",
+              "nameJp": "常ノ花寛市",
+              "generation": 31,
+              "style": "Unryū",
+              "stable": "Dewanoumi",
+              "ichimon": "Dewanoumi",
+              "relationship": "",
+              "promoted": 1924,
+              "myoseki": "Dewanoumi",
+              "notes": "Conjecture - Umegatani II was the only oyakata available in the ichimon",
+              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3666",
+              "image": "tsunenohana",
+              "children": [
+                {
+                  "name": "Musashiyama Takeshi",
+                  "nameJp": "武蔵山武",
+                  "generation": 33,
+                  "style": "Unryū",
+                  "stable": "Dewanoumi",
+                  "ichimon": "Dewanoumi",
+                  "relationship": "Otōto-deshi",
+                  "promoted": 1935,
+                  "myoseki": "Dekiyama > Shiranui",
+                  "notes": "",
+                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3743",
+                  "image": "musashiyama",
+                  "children": [
+                  ]
+                },
+                {
+                  "name": "Akinoumi Setsuo",
+                  "nameJp": "安藝ノ海節男",
+                  "generation": 37,
+                  "style": "Unryū",
+                  "stable": "Dewanoumi",
+                  "ichimon": "Dewanoumi",
+                  "relationship": "Otōto-deshi",
+                  "promoted": 1943,
+                  "myoseki": "Shiranui > Fujishima",
+                  "notes": "",
+                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3809",
+                  "image": "akinoumi",
+                  "children": [
+                  ]
+                },
+                {
+                  "name": "Chiyonoyama Masanobu",
+                  "nameJp": "千代の山雅信",
+                  "generation": 41,
+                  "style": "Unryū",
+                  "stable": "Dewanoumi",
+                  "ichimon": "Dewanoumi > Takasago",
+                  "relationship": "Deshi",
+                  "promoted": 1951,
+                  "myoseki": "Chiyonoyama > Kokonoe",
+                  "notes": "",
+                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=3867",
+                  "image": "chiyonoyama",
+                  "children": [
+                    {
+                      "name": "Kitanofuji Katsuaki",
+                      "nameJp": "北の富士勝昭",
+                      "generation": 52,
+                      "style": "Unryū",
+                      "stable": "Dewanoumi > Kokonoe",
+                      "ichimon": "Takasago",
+                      "relationship": "Deshi",
+                      "promoted": 1970,
+                      "myoseki": "Izutsu > Kokonoe > Jinmaku",
+                      "notes": "",
+                      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=4025",
+                      "image": "kitanofuji",
+                      "children": [
+                        {
+                          "name": "Chiyonofuji Mitsugu",
+                          "nameJp": "千代の富士貢",
+                          "generation": 58,
+                          "style": "Unryū",
+                          "stable": "Kokonoe",
+                          "ichimon": "Takasago",
+                          "relationship": "Deshi",
+                          "promoted": 1981,
+                          "myoseki": "Jinmaku > Kokonoe",
+                          "notes": "",
+                          "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=1354",
+                          "image": "chiyonofuji",
+                          "children": [
+                            {
+                              "name": "Hokutoumi Nobuyoshi",
+                              "nameJp": "北勝海信芳",
+                              "generation": 61,
+                              "style": "Unryū",
+                              "stable": "Kokonoe",
+                              "ichimon": "Takasago",
+                              "relationship": "Otōto-deshi",
+                              "promoted": 1987,
+                              "myoseki": "Hokutoumi > Hakkaku",
+                              "notes": "",
+                              "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=1339",
+                              "image": "hokutoumi",
+                              "children": [
+                                {
+                                  "name": "Akebono Tarō",
+                                  "nameJp": "曙太郎",
+                                  "generation": 64,
+                                  "style": "Unryū",
+                                  "stable": "Azumazeki",
+                                  "ichimon": "Takasago",
+                                  "relationship": "",
+                                  "promoted": 1993,
+                                  "myoseki": "Akebono",
+                                  "notes": "Conjecture - Akebono needed a Takasago teacher, and Hokutoumi had yet to teach anyone",
+                                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=1",
+                                  "image": "akebono",
+                                  "children": [
+                                    {
+                                      "name": "Asashōryū Akinori",
+                                      "nameJp": "朝青龍明徳",
+                                      "generation": 68,
+                                      "style": "Unryū",
+                                      "stable": "Wakamatsu > Takasago",
+                                      "ichimon": "Takasago",
+                                      "relationship": "",
+                                      "promoted": 2003,
+                                      "myoseki": "",
+                                      "notes": "",
+                                      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=878",
+                                      "image": "asashoryu",
+                                      "children": [
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
