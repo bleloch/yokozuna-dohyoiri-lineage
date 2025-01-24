@@ -1,7 +1,7 @@
 <script lang="ts">
     import * as d3 from "d3";
-    import data from "/src/assets/data.json";
-    import { StringBuilder } from "./util/StringBuilder.ts";
+    import data from "./assets/data.json";
+    import { StringBuilder } from "./lib/StringBuilder.ts";
     import { onMount } from "svelte";
 
     onMount(async () => {
