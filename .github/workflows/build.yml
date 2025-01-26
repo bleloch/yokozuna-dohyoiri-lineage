@@ -6,8 +6,9 @@ jobs:
     steps:
       - name: Build files
         id: build
+        uses: actions/checkout@v3
         run: |
-          npm run build
+          npm run build -w ${GITHUB_WORKSPACE}
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
