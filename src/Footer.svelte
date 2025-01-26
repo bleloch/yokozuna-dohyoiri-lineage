@@ -1,6 +1,6 @@
 <footer>
     <div class="p-2 bg-black">
-        <div class="text-lg text-center text-gray-400">
+        <div class="text-lg text-center text-blue-200">
             <p>References:
                 <a class="underline text-gray-200"
                    href="http://www.sumoforum.net/forums/topic/44432-a-question-about-the-yokozuna-dohyo-iri/?do=findComment&comment=529665"

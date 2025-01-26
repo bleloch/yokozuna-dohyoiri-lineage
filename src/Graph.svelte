@@ -5,10 +5,12 @@
     import { onMount } from "svelte";
 
     onMount(async () => {
+
         // Render graph
         const graph = d3.select("#graph")
             .style("fill", "none")
-            .style("stroke", "black");
+            .style("stroke", "black")
+            .style("stroke-width", "3px");
 
         const height = 1200;
         const width = 1200;
@@ -35,7 +37,6 @@
         let tooltip = d3.select("#container")
             .append("div")
             .style("position", "absolute")
-            .style("z-index", "100")
             .style("opacity", 0)
             .attr("class", "tooltip")
             .style("background-color", "lightgray")
@@ -47,7 +48,7 @@
         let renderHtml = (datum) => {
             let sb = new StringBuilder();
             sb.write("<div class=\"w-max\">");
-            sb.write("<a href=" + datum.data.dbLink + ">" + datum.data.generation + ". " + datum.data.name + " (" + datum.data.nameJp + ")" + "</a>");
+            sb.write("<a class=\"font-bold\" href=" + datum.data.dbLink + ">" + datum.data.generation + ". " + datum.data.name + " (" + datum.data.nameJp + ")" + "</a>");
             sb.write("<br>");
             sb.write("Promoted: " + datum.data.promoted);
             sb.write("<br>");
@@ -77,12 +78,22 @@
         let mousemove = (event, datum) =>
             tooltip
                 .html(renderHtml(datum))
-                .style("left", event.offsetX + "px")
+                .style("left", (event.offsetX + 300) + "px")
                 .style("top", event.offsetY + "px");
 
         let mouseleave = _ => tooltip.style("opacity", 0);
 
         let click = (_, datum) => window.open(datum.data.dbLink, "_blank").focus();
+
+        graph.selectAll(".node")
+            .data(root.descendants())
+            .enter()
+            .append("circle")
+            .attr("r", "41")
+            .attr("cx", "0")
+            .attr("cy", "40")
+            .style("stroke", d => d.data.style == "Unryū" ? "#af4f30" : "#498e7b")
+            .attr("transform", d => `translate(${d.x},${d.y})`);
 
         // Render tree nodes
         graph.selectAll(".node")
@@ -93,7 +104,7 @@
             .attr("class", "rikishi")
             .attr("transform", d => `translate(${d.x},${d.y})`)
             .attr("id", d => "rikishi" + d.data.generation)
-            .attr("xlink:href", d => "/src/assets/img/rikishi/" + d.data.image + ".jpg")
+            .attr("xlink:href", d => "./img/rikishi/" + d.data.image + ".jpg")
             .attr("x", "-40px")
             .attr("y", "0px")
             .attr("width", "80px")
@@ -106,6 +117,42 @@
     });
 </script>
 
-<div class="p-4 grid place-items-center" id="container">
-    <svg id="graph"></svg>
+<div class="grid">
+    <div class="p-4 col-start-1 row-start-1 drop-shadow-2xl -z-50">
+        <div class="bg-gray-300 w-1/12 h-26 border-solid border-4 border-white pl-2 rounded-2xl">
+            <table>
+                <thead>
+                <tr>
+                    <td class="text-2xl font-bold">Key</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="text-lg font-bold color-unryu">Unryū</td>
+                </tr>
+                <tr>
+                    <td class="text-lg font-bold color-shiranui">Shiranui</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="container" class="p-4 grid place-items-center col-start-1 row-start-1">
+        <svg id="graph"></svg>
+    </div>
 </div>
+
+<style>
+    .color-unryu {
+        color: #af4f30;
+    }
+
+    .color-shiranui {
+        color: #498e7b;
+    }
+
+    .h-26 {
+        height: 6.5rem;
+    }
+</style>
