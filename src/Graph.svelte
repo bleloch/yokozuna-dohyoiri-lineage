@@ -47,7 +47,7 @@
 
         let renderHtml = (datum) => {
             let sb = new StringBuilder();
-            sb.write("<div class=\"w-max\">");
+            sb.write("<div class=\"w-full\">");
             sb.write("<a class=\"font-bold\" href=" + datum.data.dbLink + ">" + datum.data.generation + ". " + datum.data.name + " (" + datum.data.nameJp + ")" + "</a>");
             sb.write("<br>");
             sb.write("Promoted: " + datum.data.promoted);
@@ -65,8 +65,8 @@
                 sb.write("<br>");
             }
             if (datum.data.notes) {
-                sb.write("Notes: <i>" + datum.data.notes + "</i>");
-                sb.write("<br>");
+                sb.write("<p class=\"w-full\">Notes: <i>" + datum.data.notes + "</i></p>");
+                // sb.write("<br>");
             }
             sb.write("</div>");
 
@@ -85,23 +85,24 @@
 
         let click = (_, datum) => window.open(datum.data.dbLink, "_blank").focus();
 
+        // Add circle border to nodes denoting ceremony style by colour
         graph.selectAll(".node")
             .data(root.descendants())
             .enter()
             .append("circle")
+            .attr("transform", d => `translate(${d.x},${d.y})`)
             .attr("r", "41")
             .attr("cx", "0")
             .attr("cy", "40")
             .style("stroke", d => {
-                let borderColor = "#6d6d6d" // default where style is unknown
+                let borderColour = "#6d6d6d" // default where style is unknown
                 if (d.data.style == "Unryū") {
-                    borderColor = "#af4f30";
+                    borderColour = "#af4f30";
                 } else if (d.data.style == "Shiranui") {
-                    borderColor = "#498e7b";
+                    borderColour = "#498e7b";
                 }
-                return borderColor;
-            })
-            .attr("transform", d => `translate(${d.x},${d.y})`);
+                return borderColour;
+            });
 
         // Render tree nodes
         graph.selectAll(".node")
@@ -122,30 +123,55 @@
             .on("mousemove", mousemove)
             .on("mouseleave", mouseleave)
             .on("click", click);
+
+        // Annotate links with optional "?" if the link is conjecture
+        let linkLabel = graph.selectAll(".node")
+            .data(root.descendants())
+            .enter()
+            .append("g")
+            .attr("transform", d => `translate(${d.x},${d.y})`)
+            .attr("class", "label");
+
+        linkLabel.append("text")
+            .attr("class", "label-text")
+            .attr("dx", 12)
+            .attr("dy", -4)
+            .attr("text-anchor", "middle")
+            .style("fill", "black")
+            .style("stroke-width", "1px")
+            .text(d => d.data.notes ? "?" : "");
     });
 </script>
 
 <div class="grid">
     <div class="p-4 col-start-1 row-start-1 drop-shadow-2xl -z-50">
-        <div class="bg-gray-300 w-1/12 h-34 border-solid border-4 border-white pl-2 rounded-2xl">
-            <table>
-                <thead>
-                <tr>
-                    <td class="text-2xl font-bold">Key</td>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td class="text-lg font-bold color-unryu">Unryū</td>
-                </tr>
-                <tr>
-                    <td class="text-lg font-bold color-shiranui">Shiranui</td>
-                </tr>
-                <tr>
-                    <td class="text-lg font-bold color-unknown">Unknown</td>
-                </tr>
-                </tbody>
-            </table>
+        <div class="bg-gray-300 w-1/4 border-solid border-4 border-white pl-2 rounded-2xl">
+            <div class="p-1">
+                <table>
+                    <thead>
+                    <tr>
+                        <td class="text-2xl font-bold">Key</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="text-lg font-bold color-unryu">Unryū</td>
+                    </tr>
+                    <tr>
+                        <td class="text-lg font-bold color-shiranui">Shiranui</td>
+                    </tr>
+                    <tr>
+                        <td class="text-lg font-bold color-unknown">Unknown</td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td class="text-lg"><strong>?</strong> on a link represents an unconfirmed link</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 
@@ -171,9 +197,5 @@
 
     .color-unknown {
         color: #6d6d6d;
-    }
-
-    .h-34 {
-        height: 8.5rem;
     }
 </style>
