@@ -701,6 +701,20 @@
                               "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=4",
                               "image": "musashimaru",
                               "children": [
+                                {
+                                  "name": "Hōshōryū Tomokatsu",
+                                  "nameJp": "豊昇龍智勝",
+                                  "generation": 74,
+                                  "style": "Unryū",
+                                  "stable": "Tatsunami",
+                                  "ichimon": "Dewanoumi",
+                                  "relationship": "",
+                                  "promoted": 2025,
+                                  "myoseki": "",
+                                  "notes": "",
+                                  "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=4",
+                                  "image": "hoshoryu"
+                                }
                               ]
                             }
                           ]
