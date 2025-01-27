@@ -78,7 +78,7 @@
         let mousemove = (event, datum) =>
             tooltip
                 .html(renderHtml(datum))
-                .style("left", (event.offsetX + 250) + "px")
+                .style("left", event.offsetX + "px")
                 .style("top", event.offsetY + "px");
 
         let mouseleave = _ => tooltip.style("opacity", 0);
