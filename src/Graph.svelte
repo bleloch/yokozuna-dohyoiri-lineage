@@ -78,7 +78,7 @@
         let mousemove = (event, datum) =>
             tooltip
                 .html(renderHtml(datum))
-                .style("left", (event.offsetX + 300) + "px")
+                .style("left", (event.offsetX + 250) + "px")
                 .style("top", event.offsetY + "px");
 
         let mouseleave = _ => tooltip.style("opacity", 0);
@@ -133,18 +133,14 @@
                 <tr>
                     <td class="text-lg font-bold color-shiranui">Shiranui</td>
                 </tr>
-<!--                <tr>-->
-<!--                    <td>-->
-<!--                        Hover over rikishi to see more info-->
-<!--                    </td>-->
-<!--                </tr>-->
-<!--                <tr>-->
-<!--                    <td>-->
-<!--                        Click to go to SumoDB profile in new tab-->
-<!--                    </td>-->
-<!--                </tr>-->
-<!--                </tbody>-->
+                </tbody>
             </table>
+        </div>
+    </div>
+
+    <div class="p-4 col-start-1 row-start-1 -z-50">
+        <div class="text-right font-bold italic">
+            <p>Hover over rikishi to see more info, click to visit SumoDB profile</p>
         </div>
     </div>
 
