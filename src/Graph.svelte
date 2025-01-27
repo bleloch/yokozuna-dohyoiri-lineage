@@ -85,6 +85,16 @@
 
         let click = (_, datum) => window.open(datum.data.dbLink, "_blank").focus();
 
+        graph.selectAll(".node")
+            .data(root.descendants())
+            .enter()
+            .append("circle")
+            .attr("r", "41")
+            .attr("cx", "0")
+            .attr("cy", "40")
+            .style("stroke", d => d.data.style == "Unryū" ? "#af4f30" : "#498e7b")
+            .attr("transform", d => `translate(${d.x},${d.y})`);
+
         // Render tree nodes
         graph.selectAll(".node")
             .data(root.descendants())
@@ -104,16 +114,6 @@
             .on("mousemove", mousemove)
             .on("mouseleave", mouseleave)
             .on("click", click);
-
-        graph.selectAll(".node")
-            .data(root.descendants())
-            .enter()
-            .append("circle")
-            .attr("r", "41")
-            .attr("cx", "0")
-            .attr("cy", "40")
-            .style("stroke", d => d.data.style == "Unryū" ? "#af4f30" : "#498e7b")
-            .attr("transform", d => `translate(${d.x},${d.y})`);
     });
 </script>
 
@@ -133,17 +133,17 @@
                 <tr>
                     <td class="text-lg font-bold color-shiranui">Shiranui</td>
                 </tr>
-                <tr>
-                    <td>
-                        Hover over rikishi to see more info
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Click to go to SumoDB profile in new tab
-                    </td>
-                </tr>
-                </tbody>
+<!--                <tr>-->
+<!--                    <td>-->
+<!--                        Hover over rikishi to see more info-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>-->
+<!--                        Click to go to SumoDB profile in new tab-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--                </tbody>-->
             </table>
         </div>
     </div>
