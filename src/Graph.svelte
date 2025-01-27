@@ -154,7 +154,7 @@
         <svg id="graph"></svg>
     </div>
 
-    <div class="p-4 col-start-1 row-start-1 w-1/5">
+    <div class="p-4 col-start-1 row-start-1 w-1/5 h-max">
         <details class="bg-gray-300 duration-300 border-solid border-2 border-black pl-2 rounded-2xl">
             <summary class="bg-inherit px-5 py-3 text-lg font-bold cursor-pointer">
                 Legend
