@@ -39,6 +39,7 @@
             .style("position", "absolute")
             .style("opacity", 0)
             .attr("class", "tooltip")
+            .attr("z-index", 100)
             .style("background-color", "lightgray")
             .style("border", "solid")
             .style("border-width", "2px")
@@ -144,45 +145,31 @@
 </script>
 
 <div class="grid">
-    <div class="p-4 col-start-1 row-start-1 drop-shadow-2xl -z-50">
-        <div class="bg-gray-300 w-1/4 border-solid border-4 border-white pl-2 rounded-2xl">
-            <div class="p-1">
-                <table>
-                    <thead>
-                    <tr>
-                        <td class="text-2xl font-bold">Key</td>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td class="text-lg font-bold color-unryu">Unryū</td>
-                    </tr>
-                    <tr>
-                        <td class="text-lg font-bold color-shiranui">Shiranui</td>
-                    </tr>
-                    <tr>
-                        <td class="text-lg font-bold color-unknown">Unknown</td>
-                    </tr>
-                    <tr>
-                        <td><br></td>
-                    </tr>
-                    <tr>
-                        <td class="text-lg"><strong>?</strong> on a link represents an unconfirmed link</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-    <div class="p-4 col-start-1 row-start-1 -z-50">
-        <div class="text-right font-bold italic">
-            <p>Hover over rikishi to see more info, click to visit SumoDB profile</p>
-        </div>
-    </div>
-
+<!--  -->
     <div id="graph-container" class="col-start-1 row-start-1 p-4 grid place-items-center">
         <svg id="graph"></svg>
+    </div>
+
+    <div class="p-4 col-start-1 row-start-1 w-1/5">
+        <details class="bg-gray-300 duration-300 border-solid border-2 border-black pl-2 rounded-2xl">
+            <summary class="bg-inherit px-5 py-3 text-lg font-bold cursor-pointer">
+                Legend
+            </summary>
+            <div class="p-1">
+                <div class="text-md font-bold">Style</div>
+                <div class="text-md color-unryu">Unryū</div>
+                <div class="text-md color-shiranui">Shiranui</div>
+                <div class="text-md color-unknown">Unknown</div>
+                <br>
+                <div class="text-md font-bold">Notes</div>
+                <div class="text-md"><strong>?</strong> represents an unconfirmed link</div>
+                <br>
+                <div class="text-md font-bold">Actions</div>
+                <div class="text-md">Hover over rikishi to read more</div>
+                <div class="text-md">Click to visit SumoDB profile</div>
+
+            </div>
+        </details>
     </div>
 </div>
 
