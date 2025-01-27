@@ -92,7 +92,15 @@
             .attr("r", "41")
             .attr("cx", "0")
             .attr("cy", "40")
-            .style("stroke", d => d.data.style == "Unryū" ? "#af4f30" : "#498e7b")
+            .style("stroke", d => {
+                let borderColor = "#6d6d6d" // default where style is unknown
+                if (d.data.style == "Unryū") {
+                    borderColor = "#af4f30";
+                } else if (d.data.style == "Shiranui") {
+                    borderColor = "#498e7b";
+                }
+                return borderColor;
+            })
             .attr("transform", d => `translate(${d.x},${d.y})`);
 
         // Render tree nodes
@@ -119,7 +127,7 @@
 
 <div class="grid">
     <div class="p-4 col-start-1 row-start-1 drop-shadow-2xl -z-50">
-        <div class="bg-gray-300 w-1/12 h-26 border-solid border-4 border-white pl-2 rounded-2xl">
+        <div class="bg-gray-300 w-1/12 h-34 border-solid border-4 border-white pl-2 rounded-2xl">
             <table>
                 <thead>
                 <tr>
@@ -132,6 +140,9 @@
                 </tr>
                 <tr>
                     <td class="text-lg font-bold color-shiranui">Shiranui</td>
+                </tr>
+                <tr>
+                    <td class="text-lg font-bold color-unknown">Unknown</td>
                 </tr>
                 </tbody>
             </table>
@@ -158,7 +169,11 @@
         color: #498e7b;
     }
 
-    .h-26 {
-        height: 6.5rem;
+    .color-unknown {
+        color: #6d6d6d;
+    }
+
+    .h-34 {
+        height: 8.5rem;
     }
 </style>
