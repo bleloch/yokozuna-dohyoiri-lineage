@@ -61,6 +61,10 @@
             sb.write("<br>");
             sb.write("Ichimon: " + datum.data.ichimon);
             sb.write("<br>");
+            if (datum.data.myoseki) {
+                sb.write("Myōseki: " + datum.data.myoseki);
+                sb.write("<br>");
+            }
             if (datum.data.relationship) {
                 sb.write("Relationship: " + datum.data.relationship);
                 sb.write("<br>");
