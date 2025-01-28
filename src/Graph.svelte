@@ -14,12 +14,14 @@
 
         const height = 1200;
         const width = 1200;
+        const imageSize = 80; // in px, size of images as rendered on top of graph nodes
+        const nodeOffset = 80 / 2; // this offset is used in various places to align images/tooltip bounds on top of graph nodes
 
         const treeLayout = d3.tree()
             .size([height, width]);
 
         graph
-            .attr("height", height + 80) // + 80 to allow the last row of images to display... horrible...
+            .attr("height", height + imageSize) // allows the last row of images to display
             .attr("width", width);
 
         const root = d3.hierarchy(data);
@@ -33,7 +35,7 @@
             .enter().append("path")
             .attr("d", linkGen);
 
-        // Tooltip functions
+        // Tooltip
         let tooltip = d3.select("#graph-container")
             .append("div")
             .style("position", "absolute")
@@ -46,6 +48,7 @@
             .style("border-radius", "5px")
             .style("padding", "5px");
 
+        // Tooltip functions
         let renderHtml = (datum) => {
             let sb = new StringBuilder();
             sb.write("<div class=\"w-full\">");
@@ -83,8 +86,8 @@
         let mousemove = (event, datum) =>
             tooltip
                 .html(renderHtml(datum))
-                .style("left", (event.offsetX + 235) + "px")
-                .style("top", event.offsetY + "px");
+                .style("left", event.pageX + "px")
+                .style("top", (event.pageY + nodeOffset) + "px");
 
         let mouseleave = _ => tooltip.style("opacity", 0);
 
@@ -98,7 +101,7 @@
             .attr("transform", d => `translate(${d.x},${d.y})`)
             .attr("r", "41")
             .attr("cx", "0")
-            .attr("cy", "40")
+            .attr("cy", nodeOffset)
             .style("stroke", d => {
                 let borderColour = "#6d6d6d" // default where style is unknown
                 if (d.data.style == "Unryū") {
@@ -119,7 +122,7 @@
             .attr("transform", d => `translate(${d.x},${d.y})`)
             .attr("id", d => "rikishi" + d.data.generation)
             .attr("xlink:href", d => "./img/rikishi/" + d.data.image + ".jpg")
-            .attr("x", "-40px")
+            .attr("x", "-" + nodeOffset + "px")
             .attr("y", "0px")
             .attr("width", "80px")
             .attr("height", "80px")
@@ -149,12 +152,11 @@
 </script>
 
 <div class="grid">
-<!--  -->
     <div id="graph-container" class="col-start-1 row-start-1 p-4 grid place-items-center">
         <svg id="graph"></svg>
     </div>
 
-    <div class="p-4 col-start-1 row-start-1 w-1/5 h-max">
+    <div class="col-start-1 row-start-1 p-4 w-1/5 h-max">
         <details class="bg-gray-300 duration-300 border-solid border-2 border-black pl-2 rounded-2xl">
             <summary class="bg-inherit px-5 py-3 text-lg font-bold cursor-pointer">
                 Legend
@@ -171,7 +173,6 @@
                 <div class="text-md font-bold">Actions</div>
                 <div class="text-md">Hover over rikishi to read more</div>
                 <div class="text-md">Click to visit SumoDB profile</div>
-
             </div>
         </details>
     </div>
