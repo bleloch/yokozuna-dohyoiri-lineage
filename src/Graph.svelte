@@ -87,7 +87,13 @@
             tooltip
                 .html(renderHtml(datum))
                 .style("left", event.pageX + "px")
-                .style("top", (event.pageY + nodeOffset) + "px");
+                .style("top", _ => {
+                    // Ensure that tooltip does not overflow off bottom of page
+                    if ((event.pageY + 480) > window.screen.height) {
+                        return (event.pageY - 240) + "px";
+                    }
+                    return (event.pageY + nodeOffset) + "px";
+                });
 
         let mouseleave = _ => tooltip.style("opacity", 0);
 
@@ -99,7 +105,7 @@
             .enter()
             .append("circle")
             .attr("transform", d => `translate(${d.x},${d.y})`)
-            .attr("r", "41")
+            .attr("r", "41") // 1px greater than image radius
             .attr("cx", "0")
             .attr("cy", nodeOffset)
             .style("stroke", d => {
@@ -124,8 +130,8 @@
             .attr("xlink:href", d => "./img/rikishi/" + d.data.image + ".jpg")
             .attr("x", "-" + nodeOffset + "px")
             .attr("y", "0px")
-            .attr("width", "80px")
-            .attr("height", "80px")
+            .attr("width", imageSize + "px")
+            .attr("height", imageSize + "px")
             .style("clip-path", "circle()")
             .on("mouseover", mouseover)
             .on("mousemove", mousemove)
