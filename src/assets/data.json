@@ -507,6 +507,22 @@
                                   "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=1235",
                                   "image": "kisenosato",
                                   "children": [
+                                    {
+                                      "name": "Ōnosato Daiki",
+                                      "nameJp": "大の里泰輝",
+                                      "generation": 75,
+                                      "style": "Unryū",
+                                      "stable": "Nishonoseki",
+                                      "ichimon": "Nishonoseki",
+                                      "relationship": "Deshi",
+                                      "promoted": 2025,
+                                      "myoseki": "",
+                                      "notes": "",
+                                      "dbLink": "https://sumodb.sumogames.de/Rikishi.aspx?r=12836",
+                                      "image": "onosato",
+                                      "children": [
+                                      ]
+                                    }
                                   ]
                                 }
                               ]
